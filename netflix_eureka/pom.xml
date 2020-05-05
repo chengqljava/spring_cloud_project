@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>netflix_eureka</artifactId>
 	<name>netflix_eureka</name>
-	<description>Demo project for Spring Boot</description>
+	<description>服务注册中心</description>
 
 	<properties>
 		<java.version>1.8</java.version>

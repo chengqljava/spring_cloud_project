@@ -24,7 +24,36 @@
  
 	</properties>
 	<modules>
+	    <!-- 注册中心 -->
 		<module>netflix_eureka</module>
+		<!-- 注册服务提供者 -->
+		<module>netflix_eureka_client</module>
+		<!-- 注册服务提共者2 -->
+		<module>netflix_eureka_client_two</module>
+		<!-- 注册服务提共者带集群监控 -->
+		<module>netflix_eureka_client_turbine</module>
+		<!-- 服务消费者 -->
+		<module>ribbon_consumer</module>
+		<!-- 服务消费者带有断路器 -->
+		<module>ribbon_consumer_hystrix</module>
+		<!--消费者提供集群监控信息-->
+		<module>ribbon_consumer_turbine</module>
+		<!--一些方法内部实现原理-->
+		<module>spring_cloud_inner_realization_principle</module>
+		<!--仪表盘 监控单个或集群 -->
+		<module>spring_clound_hystrix_dashboard</module>
+		<!--集群监控-->
+		<module>spring_clound_turbine</module>
+		<!--集群监控 rabbit MQ收集信息-->
+		<module>spring_clound_turbine_rabbitmq</module>
+		<!--声明式服务调用 包含 ribbon hystrix-->
+		<module>spring_clound_feign</module>		
+		<!--网关API-->
+		<module>spring_cloud_zuul</module>
+		<!--配置中心-->
+		<module>spring_cloud_config</module>
+		<!-- 消息总线 -->
+		<module>spring_cloud_bus</module>
 	</modules>
 	<dependencies>
 	</dependencies>

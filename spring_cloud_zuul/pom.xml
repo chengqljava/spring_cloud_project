@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.chengql</groupId>
+		<artifactId>cloud</artifactId>
+		<version>1.0.0</version>
+		<relativePath />
+	</parent>
+	<artifactId>spring_cloud_zuul</artifactId>
+	<packaging>pom</packaging>
+
+
+	<modules>
+	
+	<!--简单网关API-->
+	<module>simplate_gateway_zuul</module>
+	<!--面向服务网关API-->
+	<module>face_service_gateway_zuul</module>
+	   
+		
+	</modules>
+	<dependencies>
+	</dependencies>
+</project>

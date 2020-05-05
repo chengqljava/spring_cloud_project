@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.chengql</groupId>
+		<artifactId>cloud</artifactId>
+		<version>1.0.0</version>
+		<relativePath />
+	</parent>
+	<artifactId>spring_cloud_config</artifactId>
+	<packaging>pom</packaging>
+
+
+	<modules>
+	
+	<!--简单配置中心服务-->
+	<module>spring_cloud_config_service</module>
+	<!--简单配置中心客户-->
+	<module>spring_cloud_config_client</module>
+	<!--分布式配置中心服务-->
+	<module>spring_cloud_config_service_eureka</module>
+	<!--分布式配置中心客户-->
+	<module>spring_cloud_config_client_eureka</module>
+	
+	</modules>
+	<dependencies>
+	</dependencies>
+</project>
